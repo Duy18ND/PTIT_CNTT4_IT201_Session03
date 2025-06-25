@@ -29,8 +29,8 @@ int main() {
     }
     int Max = arr[0][0];
     int Min = arr[0][0];
-    for (int i = 0; i < cols; i++) {
-        for (int j = 0 ; j < rows; j++) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0 ; j < cols; j++) {
             if (arr[i][j] > Max) {
                 Max = arr[i][j];
             }
